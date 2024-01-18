@@ -1,0 +1,50 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(61, 61, 61) ;
+}
+h1{
+    font-size: 4rem;
+}
+@media (max-width: 460px) {
+    h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+main{
+    margin: 30px 8px;
+    padding: 15px;
+    background: #eee;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+    display: center;
+    height: auto;
+    margin: auto;
+
+}
+#img-div{
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+h2{
+    font-size: 2rem;
+}
+
+.description, h3, ul, ol{
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+li{
+    margin: 16px 0;
+}
